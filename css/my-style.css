@@ -10,3 +10,7 @@ h3 {
 .first-class {
 	background-color: yellow;
 }
+
+#image-style {
+	filter: grayscale(50%) invert(100%);
+}

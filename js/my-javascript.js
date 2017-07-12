@@ -16,3 +16,8 @@ function myFunc () {
 	d = document.querySelector("#class-review");
 	d.style.color = color;
 }
+
+function changeImageStyle () {
+	d = document.querySelector(".profile");
+	d.id = "image-style";
+}
