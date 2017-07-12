@@ -18,6 +18,8 @@ function myFunc () {
 }
 
 function changeImageStyle () {
-	d = document.querySelector(".profile");
-	d.id = "image-style";
+	var d = document.querySelector(".profile");
+	var ids = ['image-style1', 'image-style2',
+	'image-style3', 'image-style4'];
+	d.id = getRandomId(ids);
 }

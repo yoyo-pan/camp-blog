@@ -14,3 +14,19 @@ h3 {
 #image-style {
 	filter: grayscale(50%) invert(100%);
 }
+
+#image-style1 {
+	filter: grayscale(10%) invert(10%);
+}
+
+#image-style2 {
+	filter: grayscale(100%) invert(50%);
+}
+
+#image-style3 {
+	filter: grayscale(70%) invert(10%);
+}
+
+#image-style4 {
+	filter: grayscale(20%) invert(90%);
+}
