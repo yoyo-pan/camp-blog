@@ -48,3 +48,17 @@ setTimeout(function () {
 
 	d.id = "surprise"
 }, 2000);
+
+function myRocketMove (direction) {
+	var value;
+	if (direction == "left") {
+		value = -10;
+	} else {
+		value = 10;
+	}
+	rocketMove(value);
+}
+
+function calculate (rocks) {
+	return rocks * 10;
+}
