@@ -23,3 +23,9 @@ function changeImageStyle () {
 	'image-style3', 'image-style4'];
 	d.id = getRandomId(ids);
 }
+
+setTimeout(function () {
+	var d = document.querySelector(".profile");
+
+	d.id = "surprise"
+}, 2000);

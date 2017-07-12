@@ -38,3 +38,7 @@ h3 {
 	transform: scale(1.25, 1.25) rotate(90deg);
 	-webkit-transform: scale(1.25, 1.25) rotate(90deg);
 }
+
+#surprise {
+	opacity: 0.1;
+}
