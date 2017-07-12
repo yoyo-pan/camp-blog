@@ -8,3 +8,9 @@ function clickMe () {
 	yourLove = document.getElementById("yourLove").value;
 	alert("經過我掐指一算..."+yourLove+"超級霹靂無敵愛"+yourName+"的喔!!!");
 }
+
+function myFunc () {
+	var d;
+	d = document.querySelector("#class-review");
+	d.style.color = "blue";
+}
