@@ -3,6 +3,9 @@ function showClassDetail(className) {
 
 function clickMe () {
 	var yourName = "";
+	var yourLove = "";
 	yourName = document.getElementById("yourName").value;
-	alert("好像會成功喔!");
+	yourLove = document.getElementById("yourLove").value;
+	alert(yourName);
+	alert(yourLove);
 }
