@@ -6,6 +6,5 @@ function clickMe () {
 	var yourLove = "";
 	yourName = document.getElementById("yourName").value;
 	yourLove = document.getElementById("yourLove").value;
-	alert(yourName);
-	alert(yourLove);
+	alert("經過我掐指一算..."+yourLove+"超級霹靂無敵愛"+yourName+"的喔!!!");
 }
