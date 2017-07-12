@@ -11,6 +11,8 @@ function clickMe () {
 
 function myFunc () {
 	var d;
+	var color;
+	color = getRandomColor();
 	d = document.querySelector("#class-review");
-	d.style.color = "blue";
+	d.style.color = color;
 }
