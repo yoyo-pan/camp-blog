@@ -2,5 +2,7 @@ function showClassDetail(className) {
 }
 
 function clickMe () {
-	alert("好像會成功喔!")
+	var yourName = "";
+	yourName = document.getElementById("yourName").value;
+	alert("好像會成功喔!");
 }
