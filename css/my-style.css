@@ -30,3 +30,11 @@ h3 {
 #image-style4 {
 	filter: grayscale(20%) invert(90%);
 }
+
+.profile:hover {
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+
+	transform: scale(1.25, 1.25) rotate(90deg);
+	-webkit-transform: scale(1.25, 1.25) rotate(90deg);
+}
